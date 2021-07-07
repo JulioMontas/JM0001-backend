@@ -21,7 +21,7 @@
     "content": {
       "type": "text"
     },
-    "brief": {
+    "summary": {
       "type": "string"
     },
     "date": {
@@ -38,9 +38,9 @@
       "pluginOptions": {}
     },
     "user": {
+      "via": "articles",
       "plugin": "users-permissions",
-      "model": "user",
-      "via": "articles"
+      "model": "user"
     }
   }
 }
