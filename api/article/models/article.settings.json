@@ -41,6 +41,10 @@
       "via": "articles",
       "plugin": "users-permissions",
       "model": "user"
+    },
+    "tags": {
+      "via": "articles",
+      "collection": "tag"
     }
   }
 }

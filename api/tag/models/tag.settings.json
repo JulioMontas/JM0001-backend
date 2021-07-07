@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tags",
+  "info": {
+    "name": "Tag",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "tagname": {
+      "type": "string"
+    },
+    "articles": {
+      "collection": "article",
+      "via": "tags",
+      "dominant": true
+    },
+    "summary": {
+      "type": "string"
+    }
+  }
+}
